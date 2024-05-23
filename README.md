@@ -1,3 +1,5 @@
+![GitHub top language](https://img.shields.io/github/languages/top/mdietterle/prova_testes_2024)
+
 # Prova de Testes de Software
 
 Você irá clonar o repositório em https://github.com/mdietterle/prova_testes_2024, e irá criar testes de software para as funções constantes no arquivo `stat_funcs.py`
