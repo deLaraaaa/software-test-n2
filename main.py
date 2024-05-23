@@ -3,10 +3,10 @@ from stat_funcs import StatsN2
 stat = StatsN2()
 
 if __name__ == "__main__":
-    numeros_unimodal = [1, 2, 3, 4, 5, 5, 5, 6, 6, 7]
-    numeros_multimodal = [1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]
-    numeros_amodal = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    pesos = [0.2, 0.1, 0.05, 0.05, 0.05, 0.05, 0.2, 0.1, 0.1, 0.1]
+    numeros_unimodal = []
+    numeros_multimodal = []
+    numeros_amodal = []
+    pesos = []
 
     mmodal = stat.multimodal(lista=numeros_multimodal)
     print(f" Distribuição multimodal {mmodal}")
