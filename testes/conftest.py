@@ -3,5 +3,5 @@ import pytest
 
 
 @pytest.fixture
-
-
+def lista():
+    return [1, 2, 2, 3]

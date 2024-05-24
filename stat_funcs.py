@@ -22,11 +22,11 @@ class StatsN2:
         if n == 0:
             return 0
         if n % 2:
-            median_ = sorted(lista)[round(0.5*(n - 1))]
+            mediana = sorted(lista)[round(0.5*(n - 1))]
         else:
             x_ord, index = sorted(lista), round(0.5 * n)
-            median_ = 0.5 * (x_ord[index - 1] + x_ord[index])
-        return median_
+            mediana = 0.5 * (x_ord[index - 1] + x_ord[index])
+        return mediana
 
     @staticmethod
     def unimodal(lista):
@@ -60,8 +60,8 @@ class StatsN2:
     def variancia(lista) -> float:
         n = len(lista)
         media_ = sum(lista) / n
-        var_ = sum((item - media_)**2 for item in lista) / (n - 1)
-        return var_
+        var = sum((item - media_)**2 for item in lista) / (n - 1)
+        return var
 
     @staticmethod
     def dpadrao(var) -> float:
